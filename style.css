@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 6px;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.about-section {
+    margin-top: 100px;
+}
+
+.about-section h1 {
+    text-align: center;
+
+}
+
+.about-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img {
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid orangered;
+}
+
+.about-content {
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+
+}
+.service-section{
+    margin: 100PX 0PX;
+}
+.service-section h1{
+    text-align: center;
+}
+.card{
+    border: 2px solid orangered;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+.footer-content li{
+    list-style: none;
+}
